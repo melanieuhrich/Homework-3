@@ -43,3 +43,11 @@ Line 72: Defines the password variable as itself in addition to the selection st
 Line 74: Returns the password. The 'generate' function has been completed.
 
 Line 78: Tells the 'Generate Password' button to listen for a click, and on that click to call the 'writePassword' function. 
+
+# Screenshot 
+
+![screenshot](screenshot.png)
+
+# Link to Deployed Application
+
+https://melanieuhrich.github.io/Homework-3/ 
