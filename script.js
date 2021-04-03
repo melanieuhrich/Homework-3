@@ -76,3 +76,4 @@ function generate(selectionString, length) {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword); //calling generateBtn is clicked, it calls the writePassword function 
+
