@@ -4,25 +4,25 @@ import Button from 'react-bootstrap/Button';
 
 const styles = {
 	yesButton: {
-		marginLeft: 50
+		marginLeft: 50,
+		backgroundColor: 'teal',
+		border: 'teal'
 	},
 	noButton: {
-		marginLeft: 10
+		marginLeft: 10,
+		backgroundColor: 'teal',
+		border: 'teal'
 	}
 };
 
 function LowCharCard() {
 	return (
 		<div>
-			<Card style={{ width: '18rem' }}>
+			<Card style={{ width: '13rem' }}>
 				<Card.Body>
 					<Card.Text>Would you like to include lowercase letters?</Card.Text>
-					<Button style={styles.yesButton} variant="primary">
-						Yes
-					</Button>
-					<Button style={styles.noButton} variant="primary">
-						No
-					</Button>
+					<Button style={styles.yesButton}>Yes</Button>
+					<Button style={styles.noButton}>No</Button>
 				</Card.Body>
 			</Card>
 		</div>
